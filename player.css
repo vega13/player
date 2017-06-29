@@ -1,0 +1,136 @@
+body {
+    margin: 0 auto;
+    background-image: url(02.jpg);
+    background-size: 102%;
+}
+
+.content {
+	height: 660px;
+	background-color: rgba(0, 0, 0, 0.3);
+    font-family: sans-serif;
+}
+
+.gua-songList {
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.gua-audio-env {
+    color: white;
+}
+
+.gua-audio-absolute {
+    position: absolute;
+}
+
+.block {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+}
+
+.round {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: white;
+}
+
+.gua-audio-left {
+    top: 560px;
+    left: 300px;
+    font-size: 18px;
+}
+
+.gua-audio-play {
+    display: none;
+    top: 560px;
+    left: 350px;
+    font-size: 10px;
+}
+
+.gua-audio-stop {
+    top: 560px;
+    left: 350px;
+    font-size: 15px;
+}
+
+.gua-audio-right {
+    top: 560px;
+    left: 400px;
+    font-size: 18px;
+}
+
+.progress-bar {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid white;
+    padding: 0px;
+    width: 360px;
+    height: 7px;
+    border-radius: 3px;
+    top: 575px;
+    left: 450px;
+}
+
+.progress-bar-blue {
+    position: absolute;
+    background-color: lightblue;
+    border: none;
+    padding: 0px;
+    width: 0px;
+    height: 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    top: 576px;
+    left: 451px;
+}
+
+.gua-audio-oneLoop {
+    top: 567px;
+    left: 900px;
+}
+
+.gua-audio-allLoop {
+    top: 567px;
+    left: 940px;
+}
+
+.gua-audio-chaosLoop {
+    top: 567px;
+    left: 980px;
+}
+
+.gua-audio-newTime {
+    top: 570px;
+    left: 820px;
+}
+
+.gua-audio-allTime {
+    top: 570px;
+    left: 850px;
+}
+
+.gua-song-one {
+    top: 100px;
+    left: 450px;
+}
+
+.gua-song-two {
+    top: 130px;
+    left: 450px;
+}
+
+.gua-song-three {
+    top: 160px;
+    left: 450px;
+}
+
+.gua-song-found {
+    color: #bbdeb9;
+}

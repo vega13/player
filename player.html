@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>gua云音乐</title>
+        <link rel="stylesheet" href="player.css">
+    </head>
+    <body>
+        <div class="content">
+            <div class="gua-songList gua-audio-absolute gua-song-one gua-song-found" data-path="1.mp3">
+                Starlight Vision (Off Vocal Version) - Sound Online
+            </div>
+            <div class="gua-songList gua-audio-absolute gua-song-two" data-path="2.mp3">
+                We Don't Talk Anymore - Charlie Puth, Selena Gomez
+            </div>
+            <div class="gua-songList gua-audio-absolute gua-song-three" data-path="3.mp3">
+                Adagio for Summer Wind - Key Sounds Label
+            </div>
+            <button class="gua-audio-left round"> &lt; </button>
+            <button class="gua-audio-play round"> &#9658; </button>
+            <button class="gua-audio-stop round">||</button>
+            <button class="gua-audio-right round"> &gt; </button>
+            <button class="progress-bar"></button>
+            <button class="progress-bar-blue"></button>
+            <button class='gua-audio-oneLoop block gua-audio-absolute'>单曲</button>
+            <button class='gua-audio-allLoop block gua-audio-absolute'>列表</button>
+            <button class='gua-audio-chaosLoop block gua-audio-absolute'>随机</button>
+            <div class="gua-audio-env">
+                <div class="gua-audio-now gua-audio-absolute"></div>
+                <div class="gua-audio-newTime gua-audio-absolute"></div>
+                <div class="gua-audio-allTime gua-audio-absolute"></div>
+            </div>
+            <audio id='id-audio-player' src="1.mp3" data-src="1.mp3"></audio>
+        </div>
+        <script type="text/javascript" src="player.js"></script>
+    </body>
+</html>
